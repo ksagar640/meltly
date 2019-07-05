@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>meltly</title>
+  <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet/gallery.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+  <script src="semantic/semantic.min.js"></script>
+  <script type="text/javascript" src = "javascript/gallery.js"></script>
+  </head>
+
+<body>
+<% include ./Partials/header.ejs %>	
+
+<div class = "container">
+<div id="outer">
+	<div id="inner">
+		<div id="carousel-fc" class="carousel">
+			<img src="images/gal1.JPG" width="400" height="300" />
+			<img src="images/gal2.JPG" width="400" height="300" />
+			<img src="images/gal3.JPG" width="400" height="300" />
+			<img src="images/gal4.JPG" width="400" height="300" />
+		</div>
+		<div id="carousel-zw" class="carousel">
+			<img src="images/gal5.JPG" width="400" height="300" />
+			<img src="images/gal6.JPG" width="400" height="300" />
+			<img src="images/gal7.JPG" width="400" height="300" />
+			<img src="images/gal2.JPG" width="400" height="300" />
+		</div>
+		<div id="carousel-txt" class="carousel">
+			<h3>Chocolates</h3>
+			<h3>Happiness</h3>
+			<h3>Delights</h3>
+			<h3>Joy</h3>
+		</div>
+		<div id="overlay"></div>
+		<a href="#" id="prev">&lsaquo;</a>
+		<a href="#" id="next">&rsaquo;</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
